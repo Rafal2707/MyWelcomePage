@@ -1,0 +1,90 @@
+@media all  and (max-width: 768px) {
+
+    /* Global */
+    .hide{
+        background-color: wheat;
+    }
+    section{
+        height: auto;
+    }
+    /* NAV */
+
+    .navbar{
+        height: 100vh;
+        top:-100%
+    }
+
+    .change {
+        height: 100%;
+        top: 0;
+        display: hidden;
+      }
+    .nav-list{
+        display: inline;
+        padding:0;
+        text-align: center;
+    }
+
+
+    .nav-item{
+        margin: 10vh 0;
+    }
+    /* About */
+    .about-me-section{
+        display: block;
+        height: auto;
+    }
+    .me{
+        font-size: 25px;
+        margin-top: 15vh
+    }
+    header{
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-me p{
+        margin: 0 15px;
+        width: auto;
+    }
+
+/* Hobbies */
+    .hobbies p{
+        margin: 0;
+        margin: 0 15px;
+    }
+    .skills-header{
+        width: auto;
+    }
+    
+    .skills-container-inner{
+        width: 100%;
+    }
+    .single-project{
+        display: block;
+    }
+
+    .slideshow-container{
+        margin-top: 40px;
+    }
+
+    .single-project img {
+        width: 100%;
+    }
+
+    .single-project ul { 
+    width: 100%;
+    margin:20px;
+    padding: 0
+    }  
+
+    .form-container{
+        width: auto;
+        margin: 10px;
+    }
+}
+@media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+  }
